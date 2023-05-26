@@ -78,7 +78,7 @@ Kiểm tra cú pháp nginx
 
 *Note : nếu ok chúng ta tiến hành reload lại dịch vụ bằng câu lệnh `systemctl reload nginx`*
 
-* Bước 7 : Cài đặt mã nguồn wordpress vào thư mục hieutn.com
+* Bước 7 : Cài đặt mã nguồn wordpress vào thư mục hieutn.com.
 
 
 
