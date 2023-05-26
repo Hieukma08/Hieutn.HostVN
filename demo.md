@@ -4,6 +4,7 @@
 * Bước 1 : Update hệ thống và cài đặt Nginx 
 
 `apt update`
+
 `apt install nginx`
 
 
