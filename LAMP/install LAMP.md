@@ -25,12 +25,15 @@
 3. Cài đặt database ` Ở đây dùng mariaDB`
 
 - Cài đặt 
+
 `apt install -y software-properties-common mariadb-server mariadb-client `
 
 - Kiểm tra dịch vụ : 
+
 `systemctl status mariadb`
 
 - Thiết lập thông tin tài khoản root DB : 
+
 `mysql_secure_installation`
 
 *Note : Tại đây chúng ta thiết lập 1 số thay đổi đối với mật khẩu root của DB, Tiếp đó hệ thống hỏi 1 số câu hỏi xác nhận thì chúng ta chỉ cần chọn Yes hết để thực hiện thay đổi* 
@@ -38,10 +41,14 @@
 - Cài đặt và tạo cơ sở dữ liệu :
 
     - Truy cập vào cơ sở dữ liệu : 
+
     `mysql`
     - Tạo DB : 
+
     `create database wordpress; `
+
     - Tạo user và password 
+    
     `create user 'wordpressuser'@'localhost' identified by 'password';`
 
     `GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser@localhost;`
