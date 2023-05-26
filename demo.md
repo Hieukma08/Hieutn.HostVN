@@ -64,21 +64,21 @@ server {
 
 * Bước 6 : Tạo liên kết với file cấu hình mới và hủy bỏ file cũ 
 
-    - Liên kết với file mới của nginx 
+Liên kết với file mới của nginx 
 
 `ln -s /etc/nginx/sites-available/hieutn.com /etc/nginx/sites-enabled/`
 
-    - Hủy bỏ liên kết với file default 
+Hủy bỏ liên kết với file default 
 
 `unlink /etc/nginx/sites-enabled/default`
 
-    - Kiểm tra cú pháp nginx 
+Kiểm tra cú pháp nginx 
 
 `nginx -t`
 
 *Note : nếu ok chúng ta tiến hành reload lại dịch vụ bằng câu lệnh `systemctl reload nginx`*
 
-* Bước 7 : 
+* Bước 7 : Cài đặt mã nguồn wordpress vào thư mục hieutn.com
 
 
 
