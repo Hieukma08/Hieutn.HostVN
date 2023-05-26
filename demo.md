@@ -37,7 +37,7 @@ Chown quyền cho thư mục :
 
 `Chown -R $USER:$USER /var/www/hieutn.com`
 
-Tạo thư mục chưa file config của nginx
+- Tạo thư mục chưa file config của nginx
 
 `nano /etc /nginx/site-available/hieutn.com`
 
@@ -63,6 +63,7 @@ server {
 }
 
 * Bước 6 : Tạo liên kết với file cấu hình mới và hủy bỏ file cũ 
+
     - Liên kết với file mới của nginx 
 
 `ln -s /etc/nginx/sites-available/hieutn.com /etc/nginx/sites-enabled/`
