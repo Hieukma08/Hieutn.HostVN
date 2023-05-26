@@ -37,7 +37,7 @@ Chown quyền cho thư mục :
 
 `Chown -R $USER:$USER /var/www/hieutn.com`
 
-- Tạo thư mục chưa file config của nginx
+Tạo thư mục chưa file config của nginx
 
 `nano /etc /nginx/site-available/hieutn.com`
 
