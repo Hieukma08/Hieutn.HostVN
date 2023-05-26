@@ -5,11 +5,12 @@
 2. Cài đặt Apache 
 
 - Cài đặt Apache 
+```
+sudo apt -y update
 
-`sudo apt -y update`
+sudo apt -y install apache2
 
-`sudo apt -y install apache2`
-
+```
 - Kiểm tra phiên bản Apache 
 
 `apache -v`
@@ -48,7 +49,7 @@
     `create database wordpress; `
 
     - Tạo user và password 
-    
+
     `create user 'wordpressuser'@'localhost' identified by 'password';`
 
     `GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser@localhost;`
