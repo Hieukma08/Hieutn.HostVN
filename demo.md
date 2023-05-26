@@ -43,7 +43,7 @@ Tạo thư mục chưa file config của nginx
 
 Nội dung file : 
 
-server {
+**server {
     listen 80;
     server_name hieutn.com www.hieutn.com;
     root /var/www/hieutn.com;
@@ -60,7 +60,7 @@ server {
     location ~ /\.ht {
         deny all;
     }
-}
+}**
 
 
 
